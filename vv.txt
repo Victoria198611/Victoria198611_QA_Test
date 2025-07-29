@@ -1,5 +1,4 @@
-1
-2 Rebase2
+1 Commit1
+2
 3
-4 Rebase4
-
+4
