@@ -12,10 +12,10 @@ public class Prim {
                 }
             }
         }
-                    if (estePrim) {
-                        System.out.println(n + " este numar prim");
-                    } else {
-                        System.out.println(n + " nu este numar prim");
-                    }
-                }
-                }
+        if (estePrim) {
+            System.out.println(n + " este numar prim");
+        } else {
+            System.out.println(n + " nu este numar prim");
+        }
+    }
+}

@@ -9,8 +9,9 @@ public class Param {
         String rez = text + " " + sum;
         System.out.println(rez);
     }
+
     public static void main(String[] args) {
         Param t = new Param();
         t.afisare();
     }
-    }
+}

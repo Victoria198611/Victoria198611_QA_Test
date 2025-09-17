@@ -4,13 +4,13 @@ public class Cars {
         a[0] = new int[4];
         a[1] = new int[2];
         a[2] = new int[3];
-        int sum=0; // Metoda jagged array
+        int sum = 0; // Metoda jagged array
 
 
         // Fill the jagged array with random numbers and calculate sum
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[i].length; j++) {
-                a[i][j] = (int)(Math.random() * 101); // random number [0-100]
+                a[i][j] = (int) (Math.random() * 101); // random number [0-100]
                 sum += a[i][j];
             }
         }

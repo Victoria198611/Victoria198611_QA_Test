@@ -3,11 +3,12 @@ public class Persoana {
     int varstaPersoana;
 
     //Constructor
-    Persoana (String n, int v) {
-        numePersoana=n;
-        varstaPersoana=v;
+    Persoana(String n, int v) {
+        numePersoana = n;
+        varstaPersoana = v;
     }
-    void afiseazaInfo(){
-        System.out.println("Nume:" + numePersoana + "Varsta;" +varstaPersoana);
+
+    void afiseazaInfo() {
+        System.out.println("Nume:" + numePersoana + "Varsta;" + varstaPersoana);
     }
 }

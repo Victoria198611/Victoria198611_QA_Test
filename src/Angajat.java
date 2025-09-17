@@ -9,7 +9,8 @@ public class Angajat {
         varstaAngajat = v;
         salariu = s;
     }
+
     void afiseazaInfo() {
         System.out.println("Nume:" + numeAngajat + "varsta:" + varstaAngajat + " salariu:" + salariu);
     }
-    }
+}

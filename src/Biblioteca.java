@@ -7,11 +7,12 @@ public class Biblioteca {
         carte1 = c1;
         carte2 = c2;
     }
+
     // Metoda pentru afisarea Cartilor
     void afiseazaCarti() {
-    carte1.afiseazaInfo();
-    carte2.afiseazaInfo();
-}
+        carte1.afiseazaInfo();
+        carte2.afiseazaInfo();
+    }
 }
 
 

@@ -1,10 +1,12 @@
 public class Elev {
     String nume;
     int varsta;
-// Instance method (Metoda instanta)
+
+    // Instance method (Metoda instanta)
     public void afiseazaDetalii() {
         System.out.println(" Elevul " + nume + " are " + varsta + " ani ");
     }
+
     public static void scoala() {
         System.out.println("Scoala Nationala de Informatica");
     }
@@ -16,8 +18,8 @@ public class Elev {
         Elev e2 = new Elev();
         e2.nume = "Maria";
         e2.varsta = 29;
-        e1. afiseazaDetalii();
-        e2. afiseazaDetalii();
+        e1.afiseazaDetalii();
+        e2.afiseazaDetalii();
         scoala();
 
     }

@@ -7,5 +7,5 @@ public class Main {
         Biblioteca b = new Biblioteca(c1, c2);
         //afisam cartile
         b.afiseazaCarti();
-            }
     }
+}
