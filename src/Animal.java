@@ -3,7 +3,7 @@ public class Animal {
     String specieAnimal;
     int varstaAnimal;
 
-    //Constructor
+    // Constructor
     Animal(String n, String s, int v) {
         numeAnimal = n;
         specieAnimal = s;
@@ -11,6 +11,12 @@ public class Animal {
     }
 
     void afiseazaInfo() {
-        System.out.println("Nume:" + numeAnimal + "Specie:" + specieAnimal + "varsta:" + varstaAnimal);
+        System.out.println("Nume: " + numeAnimal + ", Specie: " + specieAnimal + ", Varsta: " + varstaAnimal);
+    }
+
+    // Main method to test
+    public static void main(String[] args) {
+        Animal a = new Animal("Rex", "Caine", 5);
+        a.afiseazaInfo();
     }
 }
